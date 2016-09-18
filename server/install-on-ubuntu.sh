@@ -41,9 +41,9 @@ sudo service postgresql restart
 
 echo "### Configuring PostgreSQL"
 
-sudo -u postgres createuser --superuser actor
-sudo -u postgres psql postgres --command '\password actor'
-sudo -u postgres createdb actor -O actor
+sudo sudo -u postgres createuser --superuser actor
+sudo sudo -u postgres psql postgres --command '\password actor'
+sudo sudo -u postgres createdb actor -O actor
 
 echo "### Updating OpenSSL"
 
